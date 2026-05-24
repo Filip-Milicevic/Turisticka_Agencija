@@ -11,12 +11,17 @@ body{
     border-radius: 5px;
 }
 
-#welcome{
+#carousel{
+    width: 75%;
+    margin: 25px auto;
+}
+
+#naslov{
     margin: 25px;
     text-align: center;
 }
 
-#carousel{
-    width: 75%;
+#o-nama{
+    width: 80%;
     margin: 25px auto;
 }
