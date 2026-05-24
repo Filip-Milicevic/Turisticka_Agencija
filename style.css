@@ -39,3 +39,16 @@ body{
 .card-text{
     text-align: justify;
 }
+
+#footer{
+    padding: 20px;
+}
+
+#kontakt{
+    width: 50%;
+    margin-left: 0px;
+}
+
+#mapa{
+    width: 50%;
+}
