@@ -16,7 +16,7 @@ body{
     margin: 25px auto;
 }
 
-#naslov{
+#dobro-dosli{
     margin: 25px;
     text-align: center;
 }
@@ -24,4 +24,18 @@ body{
 #o-nama{
     width: 80%;
     margin: 25px auto;
+}
+
+#najpopularnije{
+    margin: 25px;
+    text-align: center;
+}
+
+#najpopularniji-aranzmani{
+    width: 80%;
+    margin: 25px auto;
+}
+
+.card-text{
+    text-align: justify;
 }
