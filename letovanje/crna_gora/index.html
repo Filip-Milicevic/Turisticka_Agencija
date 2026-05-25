@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <title>ViaNexus</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img id="logo" src="../../assets/images/brand/logo.png" alt="ViaNexus" height="50" class="d-inline-block align-text-top"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../../index.html">Početna</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Letovanje
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Crna Gora</a></li>
+                        <li><a class="dropdown-item" href="../grcka/index.html">Grčka</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Evropski gradovi
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../../evropski_gradovi/budimpesta_bratislava_bec/index.html">Budimpešta, Bratislava, Beč</a></li>
+                        <li><a class="dropdown-item" href="../../evropski_gradovi/pariz/index.html">Pariz</a></li>
+                        <li><a class="dropdown-item" href="../../evropski_gradovi/prag/index.html">Prag</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Daleke destinacije
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../../daleke_destinacije/njujork/index.html">Njujork</a></li>
+                        <li><a class="dropdown-item" href="../../daleke_destinacije/japan/index.html">Japan</a></li>
+                        <li><a class="dropdown-item" href="../../daleke_destinacije/tajland/index.html">Tajland</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="application">
+    <h1 class="naslov text-primary">Crna Gora</h1>
+</main>
+
+<footer id="footer" class="bg-dark text-light d-flex justify-content-between">
+    <div id="kontakt" class="container">
+        <h2>Kontaktirajte nas</h2>
+        <form>
+            <div class="form-group">
+                <label for="mail">Mejl</label>
+                <input type="email" class="form-control" id="mail">
+            </div>
+            <div class="form-group">
+                <label for="name">Ime i prezime</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="subject">Naslov</label>
+                <input type="text" class="form-control" id="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Poruka</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Pošalji</button>
+        </form>
+    </div>
+    <div id="mapa" class="container text-end">
+        <h2>Naša lokacija</h2>
+        <!-- TODO: Dodati Google Maps iframe -->
+    </div>
+</footer>
+</body>
+</html>
