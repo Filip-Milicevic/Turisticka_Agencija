@@ -26,11 +26,6 @@ body{
     margin: 25px auto;
 }
 
-#najpopularnije{
-    margin: 25px;
-    text-align: center;
-}
-
 #najpopularniji-aranzmani{
     width: 80%;
     margin: 25px auto;
@@ -51,4 +46,8 @@ body{
 
 #mapa{
     width: 50%;
+}
+
+.opis{
+    text-align: justify;
 }
