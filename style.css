@@ -16,6 +16,12 @@ body{
     margin: 25px auto;
 }
 
+.carousel-item img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
 .naslov{
     margin: 25px;
     text-align: center;
@@ -29,6 +35,12 @@ body{
 #najpopularniji-aranzmani{
     width: 80%;
     margin: 25px auto;
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
 }
 
 .card-text{
@@ -49,5 +61,7 @@ body{
 }
 
 .opis{
+    width: 60%;
+    margin: 0 auto;
     text-align: justify;
 }
