@@ -15,7 +15,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img id="logo" src="../../assets/images/brand/logo.png" alt="ViaNexus" height="50" class="d-inline-block align-text-top"></a>
+        <a class="navbar-brand"><img id="logo" src="../../assets/images/brand/logo.png" alt="ViaNexus" height="50" class="d-inline-block align-text-top"></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -150,33 +150,49 @@
     </div>
 </main>
 
-<footer id="footer" class="bg-dark text-light d-flex justify-content-between">
-    <div id="kontakt" class="container">
-        <h2>Kontaktirajte nas</h2>
-        <form>
-            <div class="form-group">
-                <label for="mail">Mejl</label>
-                <input type="email" class="form-control" id="mail">
+<footer id="footer" class="bg-dark text-light">
+    <div class="d-flex justify-content-between">
+        <div id="kontakt" class="container">
+            <h2>Kontaktirajte nas</h2>
+            <form>
+                <div class="form-group">
+                    <label for="mail">Mejl</label>
+                    <br>
+                    <input type="email" class="form-control" id="mail">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="name">Ime i prezime</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="subject">Naslov</label>
+                    <input type="text" class="form-control" id="subject">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="message">Poruka</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Pošalji</button>
+            </form>
+        </div>
+        <div id="mapa" class="container text-end">
+            <h2>Naša lokacija</h2>
+            <div style="width: 100%">
+                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=Cara%20Lazara%2010%2C%20Beograd&amp;maptype=roadmap&amp;zoom=16"></iframe>
             </div>
-            <div class="form-group">
-                <label for="name">Ime i prezime</label>
-                <input type="text" class="form-control" id="name">
-            </div>
-            <div class="form-group">
-                <label for="subject">Naslov</label>
-                <input type="text" class="form-control" id="subject">
-            </div>
-            <div class="form-group">
-                <label for="message">Poruka</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <br>
-            <button type="submit" class="btn btn-primary">Pošalji</button>
-        </form>
+        </div>
     </div>
-    <div id="mapa" class="container text-end">
-        <h2>Naša lokacija</h2>
-        <!-- TODO: Dodati Google Maps iframe -->
+    <div id="opis" class="text-center mt-3 pt-3 pb-3 border-top small w-100">
+        <p class="mb-1"><strong>ViaNexus D.O.O. - Turistička agencija</strong></p>
+        <p class="mb-1">Cara Lazara 10, 11000 Beograd, Republika Srbija</p>
+        <p class="mb-1">+381 11 123 4567 | info@vianexus.rs | www.vianexus.rs</p>
+        <p class="mb-1">Licenca organizatora putovanja OTP XXX/2026</p>
+        <p class="mb-1">PIB: 123456789 | Matični broj: 12345678</p>
+        <p class="mb-0">© 2026 ViaNexus D.O.O. Sva prava zadržana.</p>
     </div>
 </footer>
 </body>
