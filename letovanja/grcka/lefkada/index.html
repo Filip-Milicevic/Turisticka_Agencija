@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../../style.css">
+    <script src="../../../script.js" defer></script>
     <title>ViaNexus</title>
 </head>
 <body>
@@ -50,6 +51,10 @@
                 </li>
             </ul>
         </div>
+        <form class="d-flex" role="search" onsubmit="pretrazi(event)">
+            <input id="pretraga" class="form-control me-2" type="search" placeholder="Unesite destinaciju">
+            <button id="dugme" class="btn btn-outline-success bg-white" type="submit">Pretraži</button>
+        </form>
     </div>
 </nav>
 
@@ -60,40 +65,40 @@
     <br>
     <h2 class="text-primary text-center mb-4">Program putovanja</h2>
     <div style="max-width: 900px; margin: 0 auto; text-align: justify;">
-        <h4 class="text-primary">1. dan – Polazak iz Srbije</h4>
+        <h4 class="text-primary">1. dan - Polazak iz Srbije</h4>
         <p>Polazak iz Srbije u večernjim časovima. Noćna vožnja kroz Severnu Makedoniju i Grčku uz usputna zadržavanja.</p>
 
-        <h4 class="text-primary">2. dan – Dolazak na Lefkadu</h4>
+        <h4 class="text-primary">2. dan - Dolazak na Lefkadu</h4>
         <p>Dolazak na Lefkadu u prepodnevnim časovima. Smeštaj u hotel ili apartmane. Slobodno vreme za odmor i upoznavanje sa destinacijom. Noćenje.</p>
 
-        <h4 class="text-primary">3. dan – Lefkada</h4>
+        <h4 class="text-primary">3. dan - Lefkada</h4>
         <p>Doručak. Slobodan dan za kupanje i uživanje na lokalnim plažama. Mogućnost obilaska grada Lefkade i marine. Noćenje.</p>
 
-        <h4 class="text-primary">4. dan – Porto Kaciki</h4>
+        <h4 class="text-primary">4. dan - Porto Kaciki</h4>
         <p>Doručak.</p>
         <p><strong>Fakultativni izlet:</strong> Poseta čuvenoj plaži Porto Kaciki, jednoj od najlepših plaža Mediterana, poznatoj po belim liticama i kristalno čistom moru.</p>
 
-        <h4 class="text-primary">5. dan – Lefkada</h4>
+        <h4 class="text-primary">5. dan - Lefkada</h4>
         <p>Doručak. Slobodan dan za odmor, kupanje i individualne aktivnosti. Noćenje.</p>
 
-        <h4 class="text-primary">6. dan – Krstarenje Jonskim morem</h4>
+        <h4 class="text-primary">6. dan - Krstarenje Jonskim morem</h4>
         <p>Doručak.</p>
         <p><strong>Fakultativni izlet:</strong> Celodnevno krstarenje do ostrva Skorpios, Meganisi, Kefalonija i Itaka uz kupanje u prelepim uvalama.</p>
 
-        <h4 class="text-primary">7. dan – Lefkada</h4>
+        <h4 class="text-primary">7. dan - Lefkada</h4>
         <p>Doručak. Slobodno vreme za uživanje na plažama Egremni, Katizma ili Agiofili. Noćenje.</p>
 
-        <h4 class="text-primary">8. dan – Nidri vodopadi</h4>
+        <h4 class="text-primary">8. dan - Nidri vodopadi</h4>
         <p>Doručak.</p>
         <p><strong>Fakultativni izlet:</strong> Obilazak vodopada Nidri i slikovitih planinskih sela u unutrašnjosti ostrva.</p>
 
-        <h4 class="text-primary">9. dan – Lefkada</h4>
+        <h4 class="text-primary">9. dan - Lefkada</h4>
         <p>Doručak. Slobodan dan za kupanje, kupovinu suvenira i uživanje u grčkoj gastronomiji. Noćenje.</p>
 
-        <h4 class="text-primary">10. dan – Povratak za Srbiju</h4>
+        <h4 class="text-primary">10. dan - Povratak za Srbiju</h4>
         <p>Doručak. Odjava iz smeštaja. Polazak za Srbiju u prepodnevnim časovima. Noćna vožnja kroz Grčku i Severnu Makedoniju.</p>
 
-        <h4 class="text-primary">11. dan – Dolazak u Srbiju</h4>
+        <h4 class="text-primary">11. dan - Dolazak u Srbiju</h4>
         <p>Dolazak u Srbiju u jutarnjim časovima. Kraj aranžmana.</p>
     </div>
 

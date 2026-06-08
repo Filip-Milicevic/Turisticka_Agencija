@@ -11,6 +11,10 @@ body{
     border-radius: 5px;
 }
 
+#dugme:hover{
+    color: #5cb85c;
+}
+
 #carousel{
     width: 75%;
     margin: 25px auto;
