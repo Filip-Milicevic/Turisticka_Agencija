@@ -47,6 +47,10 @@ body{
     object-fit: cover;
 }
 
+.card-title{
+    text-align: center;
+}
+
 .card-text{
     text-align: justify;
 }
@@ -65,7 +69,7 @@ body{
 }
 
 .opis{
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
     text-align: justify;
 }

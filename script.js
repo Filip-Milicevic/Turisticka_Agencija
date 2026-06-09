@@ -16,10 +16,12 @@ function pretrazi(event) {
         "pariz": "evropski_gradovi/pariz/index.html",
         "prag": "evropski_gradovi/prag/index.html",
 
+        "budva": "letovanja/crna_gora/budva/index.html",
         "herceg novi": "letovanja/crna_gora/herceg_novi/index.html",
         "herceg-novi": "letovanja/crna_gora/herceg_novi/index.html",
-        "budva": "letovanja/crna_gora/budva/index.html",
         "kotor": "letovanja/crna_gora/kotor/index.html",
+        "petrovac": "letovanja/crna_gora/petrovac_na_moru/index.html",
+        "petrovac na moru": "letovanja/crna_gora/petrovac_na_moru/index.html",
 
         "krf": "letovanja/grcka/krf/index.html",
         "parga": "letovanja/grcka/parga/index.html",

@@ -136,6 +136,14 @@
         <h1 class="naslov text-primary">Najpopularniji aranžmani</h1>
         <div id="najpopularniji-aranzmani" class="d-flex flex-row justify-content-between flex-wrap gap-3">
             <div class="card" style="width: 18rem;">
+                <img src="assets/images/evropski_gradovi/pariz/kartica.avif" class="card-img-top" alt="Pariz">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Pariz</h5>
+                    <p class="card-text">Grad svetlosti i romantike, poznat po Ajfelovom tornju, Luvru i jedinstvenoj atmosferi. Otkrijte najlepše znamenitosti francuske prestonice i uživajte u nezaboravnom putovanju.</p>
+                    <a href="evropski_gradovi/pariz/index.html" class="btn btn-primary mt-auto">Pogledaj aranžman</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
                 <img src="assets/images/letovanja/crna_gora/herceg_novi/kartica.jpeg" class="card-img-top" alt="Herceg Novi">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">Herceg-Novi</h5>
@@ -174,26 +182,26 @@
         <div class="d-flex justify-content-between">
             <div id="kontakt" class="container">
                 <h2>Kontaktirajte nas</h2>
-                <form>
+                <form onsubmit="alert('Poruka je poslata!')">
                     <div class="form-group">
                         <label for="mail">Mejl</label>
                         <br>
-                        <input type="email" class="form-control" id="mail">
+                        <input type="email" class="form-control" id="mail" required>
                     </div>
                     <br>
                     <div class="form-group">
                         <label for="name">Ime i prezime</label>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" id="name" required minlength="3">
                     </div>
                     <br>
                     <div class="form-group">
                         <label for="subject">Naslov</label>
-                        <input type="text" class="form-control" id="subject">
+                        <input type="text" class="form-control" id="subject" required minlength="3">
                     </div>
                     <br>
                     <div class="form-group">
                         <label for="message">Poruka</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <textarea class="form-control" id="message" rows="3" required minlength="10"></textarea>
                     </div>
                     <br>
                     <button type="submit" class="btn btn-primary">Pošalji</button>
