@@ -18,4 +18,4 @@ Sajt je jednostavnog, minimalističkog dizajna. Posetioci se mogu upoznati sa vi
 
 ## Licenca
 
-Projekat je licenciran MIT licencom - vidi LICENSE.md fajl
+Projekat je licenciran MIT licencom - vidi LICENSE fajl
