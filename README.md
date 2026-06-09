@@ -14,7 +14,7 @@ Sajt je jednostavnog, minimalističkog dizajna. Posetioci se mogu upoznati sa vi
 * Bootstrap 5
 
 ## Autor
-[@Filip-Milicevic](https://github.com/Filip-Milicevic$0)
+[@Filip-Milicevic](https://github.com/Filip-Milicevic)
 
 ## Licenca
 
